@@ -9,6 +9,8 @@ liff.init({
     context = liff.getContext();
     console.log(context)
 
+    $("#uid").text(context)
+
 
 }).catch(function (error) {
     console.log(error);
