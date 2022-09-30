@@ -10,6 +10,7 @@ liff.init({
     console.log(context)
 
     $("#uid").text(context["userId"])
+    console.log("done")
 
 
 }).catch(function (error) {
