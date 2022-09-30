@@ -9,7 +9,7 @@ liff.init({
     context = liff.getContext();
     console.log(context)
 
-    $("#uid").text(context)
+    $("#uid").text(context["userId"])
 
 
 }).catch(function (error) {
